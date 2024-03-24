@@ -3,12 +3,9 @@
 * 라이팅 구현에 정답은 없음. 
 ---
 주로 사용하는 것
-- DirectionalLight _ 태양광 (stationary)
+- DirectionalLight _ 태양광 (stationary) *stationary : static과 movable을 합친 느낌
 
 ![1](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/f4eb962e-32ae-4889-b418-fb9c0eb0dc06)
-
-*stationary : static과 movable을 합친 느낌
-
 
 
 - SkyLight _ 환경광 (static)
@@ -79,7 +76,29 @@ DirectionalLight의 Use Temperature을 활성화 시키고, Temperature을 3500�
 ![image](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/ac0a84b3-811a-498f-a6c5-a8b47c46a311)
 reference : https://www.casadiluce.ca/blogs/how-to/guide-to-light-color-temperature
 
+---
+<h2>하늘(sky) 색감 조절</h2>
 
+Exponential Height Fog의 Component 부분에 있는 Fog Inscattering Color을 조절한다.
+R,G,B,A 각각 1 이상의 값도 설정 가능함.
 
+- 빛을 반사하는 메시의 퀄리티를 올리고 싶은 경우
+레벨에 SphereReflectionCapture을 배치하고 빌드.
+
+---
+<h2>라이팅 후 벽 또는 메시에 빛이 새어들어오는 경우</h2>
+
+- 이는 라이트맵 해상도 때문에 발생하는 문제이다.
+
+뷰포트의 보기 방식을 라이트맵 밀도로 바꾸어주면 볼 수 있다.
+
+- 주로 많이 보게되는 부분의 라이트맵 해상도는 높은 편이고, 주로 보지 않는 부분은 낮은 편이다.
+- 
+- 만약 이 때문에 퀄리티가 낮아 보인다면, 해당 벽 메시의 Lighting 부분의 Overridden Light Map Res를 활성화하고(활성화 되어있으면 조절)
+
+-> 값을 높여주면, 해상도가 높아지고 빛이 새어들어오는 문제가 해결된다.
+
+---
+<h2>완성도를 높이는 방법들</h2>
 
 
