@@ -9,6 +9,8 @@
 
 *stationary : static과 movable을 합친 느낌
 
+
+
 - SkyLight _ 환경광 (static)
   
 ![2](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/1e0ed6d6-4fdb-4fa0-af49-a58846b8c3cf)
