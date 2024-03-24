@@ -152,8 +152,8 @@ PointLight를 활용할 수도 있다.
 
 
 - 세팅이 끝나고 화면을 더 선명하게 보고싶은 경우 콘솔 명령어를 적용하면 됨.
-  '''
-  r.tonenapper.sharpen 숫자
-  '''
+- 
+ <pre><code>r.tonenapper.sharpen 숫자</code></pre>
+ 
 -> 기본값은 0 / 2~3 정도만 해도 충분히 선명해짐.
 
