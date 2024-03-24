@@ -4,10 +4,15 @@
 ---
 주로 사용하는 것
 - DirectionalLight _ 태양광 (stationary)
-*stationary : static과 movable
+![1](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/f4eb962e-32ae-4889-b418-fb9c0eb0dc06)
+*stationary : static과 movable을 합친 느낌
 
 - SkyLight _ 환경광 (static)
+![2](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/1e0ed6d6-4fdb-4fa0-af49-a58846b8c3cf)
 - ExponentialHeghtFog _ 환경광 (static)
+![3](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/f5b59c84-712e-49b9-b122-0826faae59cb)
+
+
 
 ---
 <h1>창문 하나 있는 방에서의 라이팅</h1>
