@@ -1,5 +1,7 @@
 # Unreal-Engine-Lighting-Tips / 언리얼엔진 라이팅 구현 팁
 
+![Capture2](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/aa443308-04d2-4b10-8f22-3b10b914241e)
+
 * 라이팅 구현에 정답은 없음. 
 ---
 주로 사용하는 것
