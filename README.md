@@ -14,7 +14,7 @@
   
 ![2](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/1e0ed6d6-4fdb-4fa0-af49-a58846b8c3cf)
 
-- ExponentialHeghtFog _ 환경광 (static)
+- ExponentialHeightFog _ 환경광 (static)
   
 ![3](https://github.com/kcasl/Unreal-Engine-Lighting-Tips/assets/93076513/f5b59c84-712e-49b9-b122-0826faae59cb)
 
