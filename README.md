@@ -140,7 +140,7 @@ PointLight를 활용할 수도 있다.
 
 - ++ width : 21, height : 9 정도
 - Focal length 조절
-
+- 초점 x,y 또한 개인 기호에 따라 조정 
 
 - 카메라에 가까이 붙은 메시가 흐려지는 경우
 - -> Current Aperture값을 조정
